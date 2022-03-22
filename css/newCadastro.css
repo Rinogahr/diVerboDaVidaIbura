@@ -1,0 +1,43 @@
+html body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.newCadDivPai{
+    display: flex;
+    background: #80F2E7;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+.newCadDivfilho{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    height: 80rem;
+    background: rgba(255, 255, 255, 0.81);
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 5rem;
+}
+.newCadtitulo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.newCadtitulo > div:first-child{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #518C81;
+    width: 100%;  
+}

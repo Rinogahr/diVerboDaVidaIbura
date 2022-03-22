@@ -1,0 +1,74 @@
+@media screen and (max-width: 1280px) {
+    #container{
+        
+    }
+    #containerLogin{
+        
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #container{
+        
+    }
+    #containerLogin{
+        width: 80vw;
+    }
+    #containerHeader .imgem img{ width: 30vw;}
+
+    #containerBody .standardStyle{
+        width: 70vw;
+        padding: 1.5vw;
+        margin: 0.5rem;
+
+    }
+    #containerBody .standardStyle input{
+        width: 58vw;
+        
+    }
+    #containerBody .standardStyle select{
+        width: 60vw;
+        font-size: 12px;
+        
+    }
+
+    [design-bt="1"] {
+        padding: 1rem 2rem;
+    }
+    [boxFilho="2"]{
+        font-size: 10px;
+    } 
+}
+
+@media screen and (max-width: 350px) {
+    #container{
+        
+    }
+    #containerLogin{
+        width: 80vw;
+    }
+    #containerHeader .imgem img{ width: 15vw;}
+
+    #containerBody .standardStyle{
+        width: 70vw;
+        padding: 0.5vw;
+        margin: 0.5rem;
+
+    }
+    #containerBody .standardStyle input{
+        width: 58vw;
+        
+    }
+    #containerBody .standardStyle select{
+        width: 60vw;
+        font-size: 12px;
+        
+    }
+
+    [design-bt="1"] {
+        padding: 1rem 2rem;
+    }    
+    [boxFilho="2"]{
+        font-size: 8px;
+    } 
+}
